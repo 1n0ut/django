@@ -1,0 +1,38 @@
+
+.kwicks {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.kwicks li {
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 32%;
+	height: 70px;
+	/*do not change these */
+	display: block;
+	line-height:70px;
+	text-align:center;
+	overflow: hidden;
+}
+.kwicks li a{ color:#fff; text-decoration:none; font-size:40px;}
+.kwicks.horizontal li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	float: left;
+}
+#kwick_1 {
+	background-color: #b3ab65;
+	margin-left:  5px;
+}
+
+#kwick_2 {
+	background-color: #b39097;
+	margin-left:  19px;
+}
+
+#kwick_3 {
+	background-color: #72a993;
+	margin-right:  5px;
+	float: right;
+}
